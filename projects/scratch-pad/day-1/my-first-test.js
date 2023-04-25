@@ -18,8 +18,8 @@
 function print(value) {
   // YOUR CODE BELOW HERE //
   
-  // use console.log() to print value
-  console.log(value);
+  // use console.log() to print input value
+  console.log(value);  
   
   // YOUR CODE ABOVE HERE //
 }

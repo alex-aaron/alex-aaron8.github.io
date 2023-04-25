@@ -14,12 +14,11 @@
  */
 function length(string) {
     // YOUR CODE BELOW HERE //
+    
+    
 
-    console.log(string);
-
-    // return input string's length property
+    // return length property of input string
     return string.length;
-
 
     // YOUR CODE ABOVE HERE //
 }
@@ -30,7 +29,8 @@ function length(string) {
 function toLowerCase(string) {
     // YOUR CODE BELOW HERE //
 
-
+    console.log(string);
+    return "test";
 
     // YOUR CODE ABOVE HERE //
 }
