@@ -14,8 +14,9 @@
 function createGreaterThanFilter(base) {
     // YOUR CODE BELOW HERE //
     
-    
-    
+    return function(){
+
+    }
     
     // YOUR CODE ABOVE HERE //
 }
@@ -27,8 +28,7 @@ function createGreaterThanFilter(base) {
  */
 function createLessThanFilter(base) {
     // YOUR CODE BELOW HERE //
-    
-    
+   
     
     
     // YOUR CODE ABOVE HERE //
@@ -69,7 +69,7 @@ function createEndsWithFilter(endsWith) {
  * TIP: You need to loop over the Strings, right? We need to pass each String to 
  * the modify Function, but we need to collect the results into some collection.
  */
-function modifyStrings(strings, modify) {
+function modifyStrings(strings, modify) { // modify is a function that will return modified version of array item
     // YOUR CODE BELOW HERE //
     
     
@@ -86,10 +86,10 @@ function modifyStrings(strings, modify) {
  * begin with "C", or they are all exclaimations that end with "!".
  * 
  * TIP: You need to loop over the Strings, right? And pass them to the test?
+ * test => a function that returns true or false
  */
-function allStringsPass(strings, test) {
+function allStringsPass(strings, test) { // test is a function designed to test every item in the array 
     // YOUR CODE BELOW HERE //
-    
     
     
     
